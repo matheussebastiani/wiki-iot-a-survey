@@ -1,0 +1,12 @@
+title: Wiki - Teste
+description: Análise acadêmica do artigo XYZ
+theme: just-the-docs
+
+url: https://matheussebastiani.github.io
+baseurl: "/wiki-iot-a-survey"
+
+color_scheme: dark
+
+aux_links:
+  "Repositório no GitHub":
+    - "//github.com/matheussebastiani/wiki-iot-a-survey"
