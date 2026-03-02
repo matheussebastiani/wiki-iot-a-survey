@@ -1,16 +1,16 @@
-title: Wiki - The Internet of Things: A survey - Enabling Technologies.
-description: Wiki sobre o tópico três do artigo "The Internet of Things: A survey".
+title: "Wiki - The Internet of Things: A Survey - Enabling Technologies"
+description: "Wiki sobre o tópico três do artigo 'The Internet of Things: A Survey'."
 
-remote_theme: just-the-docs/just-the-docs
+remote_theme: "just-the-docs/just-the-docs"
 
 plugins:
   - jekyll-remote-theme
 
-url: https://matheussebastiani.github.io
+url: "https://matheussebastiani.github.io"
 baseurl: "/wiki-iot-a-survey"
 
 color_scheme: dark
 
 aux_links:
   "Repositório no GitHub":
-    - "//github.com/matheussebastiani/wiki-iot-a-survey"
+    - "https://github.com/matheussebastiani/wiki-iot-a-survey"
