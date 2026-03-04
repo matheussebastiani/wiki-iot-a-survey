@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Artigo Original
-nav_order: 2
+nav_order: 1
 ---
 
 # The Internet of Things: A Survey
