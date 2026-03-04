@@ -1,8 +1,13 @@
 ---
 layout: default
-title: Artigo Original
+title: Página Inicial
 nav_order: 1
 ---
+
+## O intuito  deste *site* é :
+Criar uma base de dados viva e compartilhada, onde a complexidade do mundo físico **(o hardware)** é traduzida em informações simples e prontas para serem usadas.
+
+Abaixo estão as informações primordiais do artigo:
 
 # The Internet of Things: A Survey
 
