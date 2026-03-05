@@ -1,3 +1,9 @@
+---
+layout: default
+title: Oque é RFID?
+parent: Visão Geral
+nav_order: 4
+---
 ## O que é RFID (Radio-Frequency Identification) ?
 
 -  RFID (Radio-Frequency Identification) é uma tecnologia de identificação automática que utiliza ondas de rádio para identificar e rastrear objetos, pessoas ou animais. Um sistema RFID é composto principalmente por **etiquetas (tags)**, que possuem um identificador único, e **leitores (readers)**, responsáveis por enviar sinais de rádio e receber as informações transmitidas pelas tags.
