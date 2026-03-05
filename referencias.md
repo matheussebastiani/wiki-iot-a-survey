@@ -12,3 +12,4 @@ nav_order: 5
 - [PDF: The Internet of Things - A Survey (Atzori, 2010)](https://www.cs.mun.ca/courses/cs6910/IoT-Survey-Atzori-2010.pdf)
 - [Artigo ScienceDirect: The Internet of Things](https://www.sciencedirect.com/science/article/abs/pii/S1389128610001568?via%3Dihub)
 - [Documentação: Just the Docs](https://just-the-docs.com/)
+- [TOTVS: Oque é, como funciona...](https://www.totvs.com/blog/gestao-industrial/rfid/)
