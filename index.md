@@ -205,8 +205,8 @@ Em alguns casos, dispositivos IoT podem possuir pilhas de comunicação **TCP/IP
 
 A comunicação automática entre objetos no contexto da Internet das Coisas introduz diversos desafios relacionados a segurança e a privacidade dos usuários. 
 
-{: .note }
-Dispositivos conectados podem coletar e transmitir informações continuamente, muitas vezes sem que o usuário tenha plena consciência desse processo.
+>[!NOTE]
+>Dispositivos conectados podem coletar e transmitir informações continuamente, muitas vezes sem que o usuário tenha plena consciência desse processo.
 
 Dessa forma, o *middleware* também deve incluir mecanismos responsáveis por garantir:
 
