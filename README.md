@@ -1,23 +1,7 @@
----
-layout: default
-title: Enabling Technologies
-nav_order: 1
-has_toc: true
-toc: true
----
-
 ## Wiki da seção 3 do artigo "Internet of Things: A survey".
 
 >[!NOTE]
 >A tarefa da TDE em questão será fazer uma Wiki a respeito da seção 3 do artigo Internet of Things: A survey. O título da seção é Enabling Technologies.
-
-## Índice
-{: .no_toc }
-
-1. TOC
-{:toc}
-
----
 
 No caso, será feito um resumo sobre as três primeiras seções, para contextualizar a terceira seção.
 ### 1. Introdução
@@ -27,15 +11,13 @@ A ideia básica desse conceito é a presença **pervasiva** ao nosso redor de um
 
 Segundo o artigo, a principal força da ideia da *Internet of Things* se encontra no alto impacto que ela terá em diversos aspectos da vida cotidiana e no comportamento de potenciais usuários. Do ponto de vista de um usuário privado, os efeitos mais óbvios da introdução do *IoT* serão visíveis tanto no campo corporativo, de seu trabalho, quanto no campo doméstico.
 
+>[!IMPORTANT]
+>No contexto recém citado, a domótica, *assisted living*, no sentido de uma certa assistência da tecnologia com alguns cuidados especiais para pessoas que necessitam, *e-health*, aprendizagem melhorada, são apenas alguns dos cenários que esse novo paradigma terá um papel de destaque no futuro.
 
-{: .important }
-No contexto recém citado, a domótica, *assisted living*, no sentido de uma certa assistência da tecnologia com alguns cuidados especiais para pessoas que necessitam, *e-health*, aprendizagem melhorada, são apenas alguns dos cenários que esse novo paradigma terá um papel de destaque no futuro.
+>[!NOTE]
+>Da mesma forma, no ponto de vista de usuários corporativos, ou *business users*, as consequências mais aparentes serão igualmente visíveis em campos como automação da manufatura industrial, logística, gerenciamento de negócios/processos, e o transporte inteligente de pessoas e bens. 
 
-
-{: .note }
-Da mesma forma, no ponto de vista de usuários corporativos, ou *business users*, as consequências mais aparentes serão igualmente visíveis em campos como automação da manufatura industrial, logística, gerenciamento de negócios/processos, e o transporte inteligente de pessoas e bens. 
-
-{: .warning }  
+> [!WARNING]  
 > A *Internet of Things* está foi incluída pelo *National Intelligence Council* na lista das seis "Tecnologias Civis Disruptivas", com potenciais impactos no poder nacional dos EUA. O NIC aponta que pelo ano de 2025, os nodos de Internet deverão residir em todas as *coisas* do dia-a-dia. Oportunidades para o desenvolvimento econômico advindas da adoção da IoT são destacadas pelo Conselho, assim como ameaças consequentes da alta difusão dessa tecnologia são apontadas. "Tendo em vista que objetos do dia-a-dia podem se tornar riscos à segurança da informação, a IoT pode distribuir esses riscos de maneira que a Internet nunca foi capaz".
 
 ---
@@ -43,26 +25,23 @@ Da mesma forma, no ponto de vista de usuários corporativos, ou *business users*
 
 A concretização do conceito de *IoT* no mundo real é possível através da integração de uma série de "tecnologias facilitadoras", ou do inglês "*enabling technologies*"
 
-
-{: .note }
-A seção três tratará das "tecnologias facilitadoras" mais relevantes para o advento da *IoT*. O artigo apresenta uma breve descrição de cada uma das tecnologias citadas, apontando, principalmente, a relação da tecnologia em questão com a *IoT*, não necessariamente se aprofundando nela.
-
+>[!NOTE]
+>A seção três tratará das "tecnologias facilitadoras" mais relevantes para o advento da *IoT*. O artigo apresenta uma breve descrição de cada uma das tecnologias citadas, apontando, principalmente, a relação da tecnologia em questão com a *IoT*, não necessariamente se aprofundando nela.
+>
 
 #### 3.1 Identificação, detecção (no sentido de sensoriamento) e tecnologias de comunicação
 
 * "Em qualquer hora, em qualquer lugar, em qualquer tipo de dispositivo". Esse tem sido há um bom tempo, segundo o artigo, a visão que move adiante os avanços nas tecnologias de comunicação.
 
-
-{: .important }
-Nesse contexto, pode-se afirmar que as tecnologias de comunicação sem fio possuem um papel determinante no contexto da *Internet of Things*, fazendo com que nos dias atuais (no caso do artigo, 2010) a proporção entre rádios (no caso qualquer dispositivo com tecnologias de RF) e humanos está próxima da proporção de 1:1.
+>[!IMPORTANT]
+>Nesse contexto, pode-se afirmar que as tecnologias de comunicação sem fio possuem um papel determinante no contexto da *Internet of Things*, fazendo com que nos dias atuais (no caso do artigo, 2010) a proporção entre rádios (no caso qualquer dispositivo com tecnologias de RF) e humanos está próxima da proporção de 1:1.
 
 No entanto, a redução em termos de tamanho, peso, consumo de energia e custo dos dispositivos com interface de rádio pode nos levar a uma nova era, onde a proporção em questão aumenta em ordem de magnitude. Esses fatores permitem que módulos de rádio sejam inseridos em praticamente todos os *objetos*, e, consequentemente, adicionar o termo "*qualquer coisa*" na visão citada previamente, que leva ao conceito de *IoT*.
 
 ##### *RFID* - A maneira de identificação única e a gênese da IoT
 
-
-{: .note }
-Uma tecnologia extremamente importante que acompanhou a *IoT* em seu princípio, satisfazendo a premissa de identificação única, é a tecnologia da *tag* de *RFID*. A presença de uma ou mais *tags* de *RFID* pode caracterizar um tipo de **sistema de *RFID***.
+>[!NOTE]
+>Uma tecnologia extremamente importante que acompanhou a *IoT* em seu princípio, satisfazendo a premissa de identificação única, é a tecnologia da *tag* de *RFID*. A presença de uma ou mais *tags* de *RFID* pode caracterizar um tipo de **sistema de *RFID***.
 
 * Sistemas de *RFID* são compostos por um ou mais leitores, e várias *tags* *RFID*.
 
@@ -86,9 +65,8 @@ Sistemas *RFID* podem ser utilizados para monitorar objetos em tempo real sem qu
 
 As redes de sensores também desempenharão um importante papel na *IoT*.
 
-
-{: .note }
-Sensores podem cooperar com sistemas de *RFID* para que se tenha disponível um maior acompanhamento das *coisas*, como por exemplo, o acompanhamento da sua localização, temperatura, movimentos, etc. O uso de redes de sensores tem sido proposto em uma gama de aplicações, que são elas: monitoramento ambiental, *e-health*, sistemas de transporte inteligente, uso militar, e monitoramento de plantas industriais.
+>[!NOTE]
+>Sensores podem cooperar com sistemas de *RFID* para que se tenha disponível um maior acompanhamento das *coisas*, como por exemplo, o acompanhamento da sua localização, temperatura, movimentos, etc. O uso de redes de sensores tem sido proposto em uma gama de aplicações, que são elas: monitoramento ambiental, *e-health*, sistemas de transporte inteligente, uso militar, e monitoramento de plantas industriais.
 
 Segundo o artigo, redes de sensores consistem em um certo número de nós (que pode ser um número alto) de sensores, que se comunicam sem o uso de fios (*wireless*). Ainda segundo o artigo, esses nós de sensores comumente enviam os resultados de suas leituras a um pequeno número de nodos especiais chamados *sinks*. Vários pesquisas cientificas foram feitas no tocante ao tema de Redes de Sensores, onde foram apontados os principais problemas em todas as camadas de seu protocolo utilizado.
 
@@ -98,8 +76,8 @@ Os objetivos das soluções propostas para os problemas encontrados nas Redes de
 * Confiabilidade, pois a rede de sensores pode ser utilizada para transmitir alarmes de prioridade altíssima;
 * Robustez - nodos de sensores estão sujeitos a falhas por vários motivos.
 
-{: . note }
-Nos dias de hoje, a maior parte das soluções comerciais de redes de snsores sem fio são baseadas no padrão IEEE 802.15.4, que define as camadas física e de MAC para aplicações de comunicação sem fio de baixo consumo e com um baixo *bit rate*. Essa solução se destina a *Wireless Personal Area Networks*.  
+>[!NOTE]
+>Nos dias de hoje, a maior parte das soluções comerciais de redes de snsores sem fio são baseadas no padrão IEEE 802.15.4, que define as camadas física e de MAC para aplicações de comunicação sem fio de baixo consumo e com um baixo *bit rate*. Essa solução se destina a *Wireless Personal Area Networks*.  
 
 A norma citada não inclui especificações das camadas superiores, responsáveis por integrar as redes de sensores à Internet. Essa é uma tarefa difícil, pois:
 * Redes de Sensores podem conter um grande número de nodos. Isso, segundo o artigo, resultaria em problemas óbvios por conta da baixa disponibilidade de endereços IP;
@@ -125,8 +103,8 @@ O *Middleware*, segundo o artigo, é uma camada de *software*, ou um conjunto de
 
 O termo tecnológico, nesse caso, está ligado diretamente à vasta gama de tecnologias (distintas) que podem ser utilizadas nos diferentes níveis hierárquicos de um dispositivo, ou melhor, de uma *coisa*. Essas tecnologias, sejam elas de sensores, atuadores, ou periféricos, possuem características e interfaces muitas vezes únicas e/ou extremamente específicas. A ideia do *middleware* se baseia em basicamente ser uma camada (ou o conjunto de camadas) responsável por esconder detalhes internos e/ou específicos de determinada tecnologia, a fim de isentar o programador que desenvolve uma camada superior, servida pelo *middleware*, de preocupações com essas características específicas. Essa camada chamada *middleware*, se localiza hierarquicamente entre a *coisa* e a aplicação. 
 
-{: .note }
-Segundo o artigo, o *middleware* teve destaque nos últimos anos (em relação a 2010) por simplificar o desenvolvimento de novos serviços e integração de tecnologias **legadas** a novas tecnologias, por isentar o programador (no caso o programador que fará a camada superior) de necessitar possuir o exato conhecimento de todas as tecnologias (variadas) adotadas nas camadas inferiores.
+>[!NOTE]
+>Segundo o artigo, o *middleware* teve destaque nos últimos anos (em relação a 2010) por simplificar o desenvolvimento de novos serviços e integração de tecnologias **legadas** a novas tecnologias, por isentar o programador (no caso o programador que fará a camada superior) de necessitar possuir o exato conhecimento de todas as tecnologias (variadas) adotadas nas camadas inferiores.
 
 Esse tipo de arquitetura contendo uma camada intermediária, no caso o *middleware*, que esconde detalhes de camadas inferiores para servir camadas superiores, proposta no contexto da *IoT*, segue a abordagem da Arquitetura Orientada a Serviços, ou melhor dizendo, *Service Oriented Architecture* (SOA).
 
@@ -137,8 +115,8 @@ A adoção dos princípios *SOA* permite que um sistema monolítico e complexo s
 
 No artigo, é apresentada uma arquitetura de referência baseada em *SOA* para o *middleware* da Internet das Coisas. Essa arquitetura é composta por diferentes camadas responsáveis por organizar as funcionalidades necessárias para permitir a integração entre dispositivos físicos e aplicações distribuídas.
 
-{: .note }
-SOA seria sigla para "*Service Oriented Architecture*" ou "*Arquitetura Orientada a Serviço*"
+>[!NOTE]
+>SOA seria sigla para "*Service Oriented Architecture*" ou "*Arquitetura Orientada a Serviço*"
 
 Essas camadas possuem responsabilidades específicas dentro do sistema e trabalham juntas para lidar com desafios típicos da *IoT*, como a heterogeneidade de dispositivos, a descoberta dinâmica de serviços e a composição de funcionalidades mais complexas a partir de serviços simples.
 
@@ -148,8 +126,8 @@ A figura 2, a seguir, tenta elaborar a arquiteura SOA para IoT:
 <img src="Captura de tela 2026-03-11 220142.png" width="500">
 </p>
 
-{: .note }
-HETEROGENEIDADE DE DISPOSITIVOS refere-se a grande diversidade e variedade de equipamentos, tecnologias, fabricantes, sistemas operacionais e protocolos de comunicação que estçao presentes em uma rede IoT
+>[!NOTE]
+> HETEROGENEIDADE DE DISPOSITIVOS refere-se a grande diversidade e variedade de equipamentos, tecnologias, fabricantes, sistemas operacionais e protocolos de comunicação que estçao presentes em uma rede IoT
 
 ##### Aplicações
 
@@ -180,8 +158,8 @@ Entre as principais funções fornecidas por essa camada **estão:**
 - *Configuração de serviços disponíveis*  
 - *Gerenciamento da qualidade de serviço*
 
-{: .note }
-Além dessas funcionalidades básicas, algumas implementações de *middleware* também incluem mecanismos adicionais relacionados ao **gerenciamento de contexto**, **controle de políticas** e **gestão semântica dos serviços**.
+>[!NOTE]
+>Além dessas funcionalidades básicas, algumas implementações de *middleware* também incluem mecanismos adicionais relacionados ao **gerenciamento de contexto**, **controle de políticas** e **gestão semântica dos serviços**.
 
 Outro aspecto importante dessa camada é a possibilidade de **implantação dinâmica de novos serviços em tempo de execução**, permitindo que o sistema se adapte a novas necessidades ou mudanças no ambiente.
 
@@ -193,9 +171,8 @@ A camada de abstração da *coisa*, pode ser composta por duas sub-camadas caso 
 - Sub-camada de interface;
 - Sub-camada de comunicação.
 
-
-{: .important }
-A sub-camada de interface provê os **métodos** necessários para que aquela *coisa* seja acessada por meio do padrão de *serviços web*. Ela é responsável por gerenciar a comunicação com o **mundo externo**.
+>[!IMPORTANT]
+>A sub-camada de interface provê os **métodos** necessários para que aquela *coisa* seja acessada por meio do padrão de *serviços web*. Ela é responsável por gerenciar a comunicação com o **mundo externo**.
 A sub-camada de comunicação implementa a lógica por trás dos métodos do *serviço web* implementado na camada anterior. Essa camada é responsável por traduzir esses métodos em comandos específicos para a *coisa*, permitindo que ela, assim, se comunique com o mundo real.
 
 
