@@ -31,7 +31,7 @@ A concretização do conceito de *IoT* no mundo real é possível através da in
 >A seção três tratará das "tecnologias facilitadoras" mais relevantes para o advento da *IoT*. O artigo apresenta uma breve descrição de cada uma das tecnologias citadas, apontando, principalmente, a relação da tecnologia em questão com a *IoT*, não necessariamente se aprofundando nela.
 >
 
-#### 3.1 Identificação, detecção (no sentido de sensoriamento) e tecnologias de comunicação
+#### 2.1 Identificação, detecção (no sentido de sensoriamento) e tecnologias de comunicação
 
 * "Em qualquer hora, em qualquer lugar, em qualquer tipo de dispositivo". Esse tem sido há um bom tempo, segundo o artigo, a visão que move adiante os avanços nas tecnologias de comunicação.
 
@@ -93,13 +93,13 @@ Essa integração permitirá a construção de redes de sensores com *RFID*.
 Na prática, segundo o artigo, essa integração consiste em:
 - Uma rede baseada em dispositivos baseados em *RFID* com a capacidade de captar determinada grandeza (no caso, atuar como um sensor) e de efetuar computação; e, leitores *RFID*. Os leitores comporiam o nodo principal, destino dos dados gerados pelos sensores com *RFID*, e responsável pela alimentação elétrica dos sensores.
 
-##### Vantagens e desvantagens das tecnologias apresentadas na seção 3.1
+##### Vantagens e desvantagens das tecnologias apresentadas na seção 2.1
 
 * Sistemas baseados em autenticação via *RFID* possuem baixo tamanho e custo. Além do mais, seu tempo de vida útil não é limitado pela duração de uma bateria;
 * Redes de sensores sem fio são o paradigma de alta cobertura de rádio e comunicação, não tendo a necessidade da presença direta de um leitor, como no item prévio. Sua comunicação é baseado no modelo de interação *peer to peer*;
 * Redes de sensores com *RFID* são a possibilidade, segundo o artigo, de integrar tecnologias como: sensoriamento, computação e capacidade de comunicação em um sistema **passivo**.
 
-#### Middleware
+#### 2.2 Middleware
 
 O *Middleware*, segundo o artigo, é uma camada de *software*, ou um conjunto de sub-camadas (de *software*) interpostas entre os níveis tecnológico e de aplicação.
 
@@ -113,7 +113,7 @@ Esse tipo de arquitetura contendo uma camada intermediária, no caso o *middlewa
 A adoção dos princípios *SOA* permite que um sistema monolítico e complexo seja decomposto em aplicações que consistem em um ecossistema de componentes mais simples e bem definidos quando comparados com sistemas monolíticos. O uso de protocolos padronizados e interfaces comuns fornecem uma visão horizontal de um sistema empresarial e/ou profissional. Essa abordagem permite e viabiliza o reuso de *hardware* e *software* para diferentes aplicações, já que não há uma imposição de uma tecnologia específica para a implementação do serviço.
 
 
-#### Arquitetura do Middleware
+##### 2.2.1 Arquitetura do Middleware
 
 No artigo, é apresentada uma arquitetura de referência baseada em *SOA* para o *middleware* da Internet das Coisas. Essa arquitetura é composta por diferentes camadas responsáveis por organizar as funcionalidades necessárias para permitir a integração entre dispositivos físicos e aplicações distribuídas.
 
@@ -131,11 +131,11 @@ A figura 2, a seguir, tenta elaborar a arquiteura SOA para IoT:
 >[!NOTE]
 > HETEROGENEIDADE DE DISPOSITIVOS refere-se a grande diversidade e variedade de equipamentos, tecnologias, fabricantes, sistemas operacionais e protocolos de comunicação que estçao presentes em uma rede IoT
 
-##### Aplicações
+###### 2.1.2 Aplicações
 
 Aplicações estão na camada mais alta do modelo arquitetural em questão, fornecendo todas as funcionalidades disponíveis no sistema para o usuário final. Essa camada não faz parte do *middleware*, mas é servida por ele, ou seja, explora todas as funcionalidades do *middleware*. Através do uso de protocolos padrões de *serviços web* e outras tecnologias com um modelo arquitetural semelhante, é possível efetuar uma integração perfeita entre aplicações *IoT* e **Sistemas Distribuídos**.
 
-##### Composição de Serviços 
+###### 2.1.3 Composição de Serviços 
 
 Uma das camadas importantes dentro da arquitetura de *middleware* é a camada de composição de serviços.
 - *Sua principal função é permitir a criação de serviços mais complexos por meio da combinação de serviços individuais oferecidos pelos objetos conectados.*
@@ -148,7 +148,7 @@ Para possibilitar essa composição, o *middleware* normalmente mantém um **rep
 
 A lógica responsável por coordenar esses serviços pode ser representada por **fluxos de trabalho, que descrevem a sequência de ações necessárias para realizar determinada funcionalidade dentro do sistema.
 
-##### Gerenciamento de Serviços
+###### 2.1.4 Gerenciamento de Serviços
 
 Outra camada fundamental do *middleware* é a camada de gerenciamento de serviços.
 - *Essa camada fornece um conjunto de funcionalidades responsáveis por administrar os objetos e serviços presentes no ambiente IoT.*
@@ -165,7 +165,7 @@ Entre as principais funções fornecidas por essa camada **estão:**
 
 Outro aspecto importante dessa camada é a possibilidade de **implantação dinâmica de novos serviços em tempo de execução**, permitindo que o sistema se adapte a novas necessidades ou mudanças no ambiente.
 
-##### Abstração do objeto, ou *coisa*
+###### 2.1.5 Abstração do objeto, ou *coisa*
 
 O universo dos dispositivos *IoT* abrange uma enorme heterogeneidade de *coisas*, cada uma provendo funcionalidades específicas acessíveis através de seu próprio protocolo. Ou seja, cada *coisa* pode ter seu próprio modo de ter suas respectivas funcionalidades acessadas. Essa característica das *coisas* implica na necessidade de haver uma camada de abstração capaz de padronizar o acesso a diferentes *coisas* por meio de uma linguagem e procedimento comum.
 
@@ -180,7 +180,7 @@ A sub-camada de comunicação implementa a lógica por trás dos métodos do *se
 
 Em alguns casos, dispositivos IoT podem possuir pilhas de comunicação **TCP/IP embarcadas**, permitindo sua conexão direta à Internet. Entretanto, em muitos cenários essa abstração é realizada por meio de **gateways ou proxies**, que atuam como intermediários responsáveis por traduzir diferentes protocolos de comunicação.
 
-#### Confiança, Privacidade e Segurança
+##### 2.1.6 Confiança, Privacidade e Segurança
 
 A comunicação automática entre objetos no contexto da Internet das Coisas introduz diversos desafios relacionados a segurança e a privacidade dos usuários. 
 
