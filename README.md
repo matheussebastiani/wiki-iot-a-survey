@@ -1,9 +1,11 @@
 ## Wiki da seção 3 do artigo "Internet of Things: A survey".
 
->[!NOTE]
->A tarefa da TDE em questão será fazer uma Wiki a respeito da seção 3 do artigo Internet of Things: A survey. O título da seção é Enabling Technologies.
 
-No caso, será feito um resumo sobre as três primeiras seções, para contextualizar a terceira seção.
+>[!NOTE]
+>A tarefa da TDE em questão será fazer uma Wiki a respeito da seção 3 do artigo *Internet of Things: A survey*, de **ATZORI; IERA; MORABITO, 2010**. O título da seção é Enabling Technologies.
+
+Como a Wiki em questão trata do primeiro assunto do ponto de vista cronológico, será feita uma breve introdução ao conceito da *Internet of Things*.
+
 ### 1. Introdução
 
 A Internet das Coisas (*IoT - Internet of Things*) é um "novo" (no caso para o ano de 2010, de escrita do artigo em questão) que está rapidamente conquistando seu espaço no cenário de telecomunicações sem fio.
